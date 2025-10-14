@@ -1,0 +1,63 @@
+.header {
+    color: rgba(28,28,30,1);
+    background-color: rgba(181,106,51,1);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.navMain {
+    
+    position: relative;
+}
+
+.navMain li {
+    list-style-type: none;
+    
+}
+
+.navMain li a{
+    color: rgba(28,28,30,1);
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.navMain :hover {
+    color: rgba(94,70,53,1);
+    transition: 0.3s;
+}
+
+#icon {
+    width: 1em;
+}
+
+body {
+    background: rgba(242,198,125,1);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Asul", serif;
+    font-style: normal;
+}
+
+.tagline {
+    margin: 1% 5%;
+}
+
+.main {
+    margin: 1em 10% 2em;
+}
+
+.container {
+    
+}
+
+#extLink {
+    width: 5rem;
+}
+
+.footer {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
