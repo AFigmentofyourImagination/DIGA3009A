@@ -4,6 +4,7 @@
     font-family: "Bebas Neue", sans-serif;
     font-size: 40px;
     text-align: center;
+    margin-top: 0;
 }
 
 .navMain {
@@ -44,20 +45,37 @@ body {
 }
 
 .main {
-    margin: 1em 10% 2em;
+    margin: 1em 2% 2em;
+    padding: 1em 5% 1em;
+    background-color: rgba(255,241,202,1);
 }
 
 .container {
-    
+    display: flex;
+    flex-direction: column;
 }
 
 #extLink {
     width: 5rem;
+    border-color: rgba(94,70,53,1);
+}
+
+#extLink :hover{
+    width: 1em;
 }
 
 .footer {
     font-family: "Fira Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
+    display: flex;
+    background-color: rgba(181,106,51,1);
+    height: 5em;
+    line-height: 0.5;
+}
+
+.footer p {
     text-align: center;
+    margin-left: 5em;
+    margin-top: 1.5em;
 }
