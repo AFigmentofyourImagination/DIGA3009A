@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web of Dragons</title>
     <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="../Styles/feedback.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -89,7 +90,44 @@
 
     <h1 class="tagline">Feedback</h1>
     <div class="main">
-      <article></article>
+      <h2>Terrormail me for any queries or thoughts on my website :)</h2>
+      <div class="feedback-Form">
+        <form id="feedbackForm">
+          <div class="formGroup">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="formGroup">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="formGroup">
+            <label for="comments">Feedback:</label>
+            <textarea id="comments" name="comments" rows="10"></textarea>
+          </div>
+          <button type="submit" class="btnSubmit">Submit</button>
+        </form>
+      </div>
+      <div id="confirmMessage" class="confirmMessage hidden">
+        <h2>Berk thanks you for your Terrormail!</h2>
+        <p>
+          Thank you for taking your time to inform me kindly on what and where I
+          can improve.
+        </p>
+        <button id="newFeedback" class="btnSubmit">
+          Want to give more feedback?
+        </button>
+      </div>
+      <div class="feedbackSummary">
+        <h2>Recent feedback</h2>
+        <div id="feedbackStats">
+          <div class="statBox">
+            <h3>Total submissions</h3>
+            <p id="totalSubmissions">0</p>
+          </div>
+        </div>
+        <div id="recentFeedback" class="recentFeedback"></div>
+      </div>
     </div>
     <div class="footer">
       <footer>
@@ -105,5 +143,6 @@
       </footer>
     </div>
     <script src="../main.js" defer></script>
+    <script src="../Scripts/feedback.js" defer></script>
   </body>
 </html>
