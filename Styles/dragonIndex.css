@@ -11,15 +11,25 @@
 
 .dragonIndex li {
     padding: 2em;
+    display: grid;
+    grid-template-columns: minmax(3em, auto) 1fr;
+    gap: 0 1.05em;
+    border: solid rgba(1,71,102,1);
+    border-radius: 20px;
+}
+
+li + li {
+    margin-top: 1rem;
 }
 
 .dragonIndex li a {
     text-decoration: none;
     color: rgba(28,28,30,1);
     font-size: 2em;
+    padding: 0.5rem 0.5rem;
+    width: 9em;
 }
 
 .dragonIndex li:hover {
-    background-color: rgba(1,71,102,1);
-    
+    background-color: rgba(71,112,154,1);
 }
