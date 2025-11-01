@@ -2,6 +2,10 @@ image {
     height: 10em;
 }
 
+#quakenSpecial {
+    width: 63em;
+}
+
 #gronckleSpecialSize {
     width: 65em;
 }
@@ -15,4 +19,9 @@ p, h3 {
     font-size: 1em;
     margin-left: 5em;
     font-weight: 100;
+}
+
+.referTo {
+    color: rgba(71,112,154,1);
+    text-decoration: none;
 }
