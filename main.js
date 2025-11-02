@@ -22,3 +22,21 @@ function toggleMenu() {
 }
 
 menuBtn.addEventListener("click", toggleMenu);
+
+//back to top btn
+let bttButton = document.getElementById("bttBtn");
+window.onscroll = function() {this.scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        bttButton.style.display = "block";
+    }
+    else {
+        bttButton.style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}

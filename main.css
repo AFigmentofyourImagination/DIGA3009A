@@ -72,6 +72,26 @@
     width: 4em;
 }
 
+#bttBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgba(168,54,38,1);
+    color: rgba(255,241,202,1);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#bttBtn:hover {
+    background-color: rgba(210,127,95,1);
+}
+
 body {
     background: rgba(242,198,125,1);
     background-size: cover;
