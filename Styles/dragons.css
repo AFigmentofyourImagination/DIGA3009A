@@ -68,7 +68,7 @@ p, h3 {
 
 .thumb {
     display: inline;
-    height: 30em;
+    height: fit-content;
 }
 
 #galleryList {
@@ -96,7 +96,7 @@ p, h3 {
 }
 
 .lightbox img{
-    max-width:80% ;
+    max-width: 80% ;
     max-height: 90%;
     text-align: center;
     margin-top: 2%;

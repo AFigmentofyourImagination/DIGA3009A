@@ -90,90 +90,273 @@
     <button onclick="topFunction()" id="bttBtn" title="Go to top">^</button>
     <h1 class="tagline">Dragons</h1>
     <div class="main">
-      <article class="dragonBox">
+      <div id="filterButtons"></div>
+        <button class="filter-btn active" dataFilter="all">All dragons</button>
+        <button class="filter-btn" dataFilter="boulder">
+          <img
+            src="../Images/boulderClass/Boulder.webp"
+            alt="Boulder Class icon"
+            id="classIcon"
+          />
+          Boulder Class
+        </button>
+        <button class="filter-btn" dataFilter="mystery">
+          <img
+            src="../Images/mysteryClass/Mystery.webp"
+            alt="Mystery Class icon"
+            id="classIcon"
+          />
+          Mystery Class
+        </button>
+        <button class="filter-btn" dataFilter="sharp">
+          <img
+            src="../Images/sharpClass/Sharp.webp"
+            alt="Sharp Class icon"
+            id="classIcon"
+          />
+          Sharp Class
+        </button>
+        <button class="filter-btn" dataFilter="stoker">
+          <img
+            src="../Images/stokerClass/Stoker.webp"
+            alt="Stoker Class icon"
+            id="classIcon"
+          />
+          Stoker Class
+        </button>
+        <button class="filter-btn" dataFilter="strike">
+          <img
+            src="../Images/strikeClass/Strike.webp"
+            alt="Strike Class icon"
+            id="classIcon"
+          />
+          Strike Class
+        </button>
+        <button class="filter-btn" dataFilter="tidal">
+          <img
+            src="../Images/tidalClass/Tidal.webp"
+            alt="Tidal Class icon"
+            id="classIcon"
+          />
+          Tidal Class
+        </button>
+        <button class="filter-btn" dataFilter="tracker">
+          <img
+            src="../Images/trackerClass/Tracker.webp"
+            alt="Tracker Class icon"
+            id="classIcon"
+          />
+          Tracker Class
+        </button>
+      </section>
+      <div class="objects">
         <ul class="dragonIndex">
-          <li><a href="MysteryClass/armorwing.html"><img src="../Images/mysteryClass/Armorwing1.webp" alt="" class="dragonPic">Armorwing</a></li>
-          <li><a href="TidalClass/bewilderbeast.html">Bewilderbeast</a></li>
-          <li><a href="MysteryClass/boneknapper.html">Boneknapper</a></li>
-          <li><a href="MysteryClass/buffalord.html">Buffalord</a></li>
           <li>
-            <a href="BoulderClass/catastrophicQuaken.html"
+            <a href="MysteryClass/armorwing.html" class="item mystery">Armorwing</a>
+          </li>
+          <li>
+            <a href="TidalClass/bewilderbeast.html" class="item tidal"
+              >Bewilderbeast</a
+            >
+          </li>
+          <li>
+            <a href="MysteryClass/boneknapper.html" class="item mystery">Boneknapper</a>
+          </li>
+          <li>
+            <a href="MysteryClass/buffalord.html" class="item mystery">Buffalord</a>
+          </li>
+          <li>
+            <a href="BoulderClass/catastrophicQuaken.html" class="item boulder"
               >Catastrophic Quaken</a
             >
           </li>
-          <li><a href="MysteryClass/cavernCrasher.html">Cavern Crasher</a></li>
-          <li><a href="MysteryClass/changewing.html">Changewing</a></li>
           <li>
-            <a href="BoulderClass/crimsonGoregutter.html">Crimson Goregutter</a>
+            <a href="MysteryClass/cavernCrasher.html" class="item mystery"
+              >Cavern Crasher</a
+            >
           </li>
-          <li><a href="TrackerClass/deadlyNadder.html">Deadly Nadder</a></li>
-          <li><a href="StrikeClass/deathgripper.html">Deathgripper</a></li>
-          <li><a href="MysteryClass/deathSong.html">Death Song</a></li>
-          <li><a href="MysteryClass/dramillion.html">Dramillion</a></li>
-          <li><a href="BoulderClass/eruptodon.html">Eruptodon</a></li>
-          <li><a href="StokerClass/fireworm.html">Fireworm</a></li>
-          <li><a href="MysteryClass/flightmare.html">Flightmare</a></li>
-          <li><a href="SharpClass/grimGnasher.html">Grim Gnasher</a></li>
-          <li><a href="BoulderClass/gronckle.html">Gronckle</a></li>
           <li>
-            <a href="MysteryClass/hideousZippleback.html">Hideous Zippleback</a>
+            <a href="MysteryClass/changewing.html" class="item mystery">Changewing</a>
           </li>
-          <li><a href="StokerClass/hobblegrunt.html">Hobblegrunt</a></li>
-          <li><a href="MysteryClass/hobgobbler.html">Hobgobbler</a></li>
-          <li><a href="BoulderClass/hotburple.html">Hotburple</a></li>
-          <li><a href="StrikeClass/lightFury.html">Light Fury</a></li>
           <li>
-            <a href="StokerClass/monstrousNightmare.html"
+            <a href="BoulderClass/crimsonGoregutter.html" class="item boulder"
+              >Crimson Goregutter</a
+            >
+          </li>
+          <li>
+            <a href="TrackerClass/deadlyNadder.html" class="item sharp tracker"
+              >Deadly Nadder</a
+            >
+          </li>
+          <li>
+            <a href="StrikeClass/deathgripper.html" class="item strike"
+              >Deathgripper</a
+            >
+          </li>
+          <li>
+            <a href="MysteryClass/deathSong.html" class="item mystery">Death Song</a>
+          </li>
+          <li>
+            <a href="MysteryClass/dramillion.html" class="item mystery">Dramillion</a>
+          </li>
+          <li>
+            <a href="BoulderClass/eruptodon.html" class="item boulder">Eruptodon</a>
+          </li>
+          <li><a href="StokerClass/fireworm.html" class="item stoker">Fireworm</a></li>
+          <li>
+            <a href="MysteryClass/flightmare.html" class="item mystery">Flightmare</a>
+          </li>
+          <li>
+            <a href="SharpClass/grimGnasher.html" class="item sharp">Grim Gnasher</a>
+          </li>
+          <li>
+            <a href="BoulderClass/gronckle.html" class="item boulder">Gronckle</a>
+          </li>
+          <li>
+            <a href="MysteryClass/hideousZippleback.html" class="item mystery"
+              >Hideous Zippleback</a
+            >
+          </li>
+          <li>
+            <a href="StokerClass/hobblegrunt.html" class="item stoker">Hobblegrunt</a>
+          </li>
+          <li>
+            <a href="MysteryClass/hobgobbler.html" class="item mystery stoker">Hobgobbler</a>
+          </li>
+          <li>
+            <a href="BoulderClass/hotburple.html" class="item boulder">Hotburple</a>
+          </li>
+          <li>
+            <a href="StrikeClass/lightFury.html" class="item strike">Light Fury</a>
+          </li>
+          <li>
+            <a href="StokerClass/monstrousNightmare.html" class="item stoker"
               >Monstrous Nightmare</a
             >
           </li>
-          <li><a href="StrikeClass/nightFury.html">Night Fury</a></li>
-          <li><a href="StokerClass/nightTerror.html">Night Terror</a></li>
-          <li><a href="SharpClass/raincutter.html">Raincutter</a></li>
-          <li><a href="SharpClass/razorwhip.html">Razorwhip</a></li>
-          <li><a href="StokerClass/redDeath.html">Red Death</a></li>
-          <li><a href="TrackerClass/rumblehorn.html">Rumblehorn</a></li>
-          <li><a href="MysteryClass/sandbuster.html">Sandbuster</a></li>
-          <li><a href="TidalClass/scauldron.html">Scauldron</a></li>
           <li>
-            <a href="BoulderClass/screamingDeath.html">Screaming Death</a>
+            <a href="StrikeClass/nightFury.html" class="item strike">Night Fury</a>
           </li>
-          <li><a href="SharpClass/scuttleclaw.html">Scuttleclaw</a></li>
-          <li><a href="TidalClass/seashocker.html">Seashocker</a></li>
-          <li><a href="BoulderClass/sentinel.html">Sentinel</a></li>
-          <li><a href="StokerClass/shadowWing.html">Shadow Wing</a></li>
-          <li><a href="TidalClass/shellfire.html">Shellfire</a></li>
-          <li><a href="BoulderClass/shovelhelm.html">Shovelhelm</a></li>
-          <li><a href="StokerClass/singetail.html">Singetail</a></li>
-          <li><a href="StrikeClass/skrill.html">Skrill</a></li>
-          <li><a href="MysteryClass/slitherwing.html">Slitherwing</a></li>
           <li>
-            <a href="MysteryClass/smotheringSmokebreath.html"
+            <a href="StokerClass/nightTerror.html" class="item stoker">Night Terror</a>
+          </li>
+          <li>
+            <a href="SharpClass/raincutter.html" class="item sharp">Raincutter</a>
+          </li>
+          <li>
+            <a href="SharpClass/razorwhip.html" class="item sharp">Razorwhip</a>
+          </li>
+          <li>
+            <a href="StokerClass/redDeath.html" class="item boulder stoker">Red Death</a>
+          </li>
+          <li>
+            <a href="TrackerClass/rumblehorn.html" class="item tracker">Rumblehorn</a>
+          </li>
+          <li>
+            <a href="MysteryClass/sandbuster.html" class="item mystery">Sandbuster</a>
+          </li>
+          <li><a href="TidalClass/scauldron.html" class="item tidal">Scauldron</a></li>
+          <li>
+            <a href="BoulderClass/screamingDeath.html" class="item boulder"
+              >Screaming Death</a
+            >
+          </li>
+          <li>
+            <a href="SharpClass/scuttleclaw.html" class="item sharp">Scuttleclaw</a>
+          </li>
+          <li>
+            <a href="TidalClass/seashocker.html" class="item tidal">Seashocker</a>
+          </li>
+          <li>
+            <a href="BoulderClass/sentinel.html" class="item boulder">Sentinel</a>
+          </li>
+          <li>
+            <a href="StokerClass/shadowWing.html" class="item stoker">Shadow Wing</a>
+          </li>
+          <li><a href="TidalClass/shellfire.html" class="item tidal">Shellfire</a></li>
+          <li>
+            <a href="BoulderClass/shovelhelm.html" class="item boulder">Shovelhelm</a>
+          </li>
+          <li>
+            <a href="StokerClass/singetail.html" class="item stoker">Singetail</a>
+          </li>
+          <li><a href="StrikeClass/skrill.html" class="item strike">Skrill</a></li>
+          <li>
+            <a href="MysteryClass/slitherwing.html" class="item mystery">Slitherwing</a>
+          </li>
+          <li>
+            <a href="MysteryClass/smotheringSmokebreath.html" class="item mystery"
               >Smothering Smokebreath</a
             >
           </li>
-          <li><a href="BoulderClass/snafflefang.html">Snafflefang</a></li>
-          <li><a href="MysteryClass/snaptrapper.html">Snaptrapper</a></li>
-          <li><a href="TrackerClass/snifflehunch.html">Snifflehunch</a></li>
-          <li><a href="StrikeClass/snowWraith.html">Snow Wraith</a></li>
-          <li><a href="SharpClass/speedStinger.html">Speed Stinger</a></li>
-          <li><a href="SharpClass/stormcutter.html">Stormcutter</a></li>
-          <li><a href="TidalClass/submaripper.html">Submaripper</a></li>
-          <li><a href="StokerClass/terribleTerror.html">Terrible Terror</a></li>
-          <li><a href="SharpClass/thornridge.html">Thornridge</a></li>
-          <li><a href="StokerClass/threadtail.html">Threadtail</a></li>
-          <li><a href="TrackerClass/thunderclaw.html">Thunderclaw</a></li>
-          <li><a href="TidalClass/thunderdrum.html">Thunderdrum</a></li>
-          <li><a href="SharpClass/timberjack.html">Timberjack</a></li>
-          <li><a href="StrikeClass/tripleStryke.html">Triple Stryke</a></li>
-          <li><a href="StokerClass/typhoomerang.html">Typhoomerang</a></li>
           <li>
-            <a href="BoulderClass/whisperingDeath.html">Whispering Death</a>
+            <a href="BoulderClass/snafflefang.html" class="item boulder">Snafflefang</a>
           </li>
-          <li><a href="TrackerClass/windgnasher.html">Windgnasher</a></li>
-          <li><a href="SharpClass/windstriker.html">Windstriker</a></li>
+          <li>
+            <a href="MysteryClass/snaptrapper.html" class="item mystery">Snaptrapper</a>
+          </li>
+          <li>
+            <a href="TrackerClass/snifflehunch.html" class="item tracker"
+              >Snifflehunch</a
+            >
+          </li>
+          <li>
+            <a href="StrikeClass/snowWraith.html" class="item strike">Snow Wraith</a>
+          </li>
+          <li>
+            <a href="SharpClass/speedStinger.html" class="item sharp"
+              >Speed Stinger</a
+            >
+          </li>
+          <li>
+            <a href="SharpClass/stormcutter.html" class="item sharp">Stormcutter</a>
+          </li>
+          <li>
+            <a href="TidalClass/submaripper.html" class="item tidal tracker">Submaripper</a>
+          </li>
+          <li>
+            <a href="StokerClass/terribleTerror.html" class="item stoker"
+              >Terrible Terror</a
+            >
+          </li>
+          <li>
+            <a href="SharpClass/thornridge.html" class="item sharp">Thornridge</a>
+          </li>
+          <li>
+            <a href="StokerClass/threadtail.html" class="item stoker">Threadtail</a>
+          </li>
+          <li>
+            <a href="TrackerClass/thunderclaw.html" class="item tidal tracker">Thunderclaw</a>
+          </li>
+          <li>
+            <a href="TidalClass/thunderdrum.html" class="item tidal">Thunderdrum</a>
+          </li>
+          <li>
+            <a href="SharpClass/timberjack.html" class="item sharp">Timberjack</a>
+          </li>
+          <li>
+            <a href="StrikeClass/tripleStryke.html" class="item strike"
+              >Triple Stryke</a
+            >
+          </li>
+          <li>
+            <a href="StokerClass/typhoomerang.html" class="item stoker"
+              >Typhoomerang</a
+            >
+          </li>
+          <li>
+            <a href="BoulderClass/whisperingDeath.html" class="item boulder"
+              >Whispering Death</a
+            >
+          </li>
+          <li>
+            <a href="TrackerClass/windgnasher.html" class="item tracker">Windgnasher</a>
+          </li>
+          <li>
+            <a href="SharpClass/windstriker.html" class="item sharp">Windstriker</a>
+          </li>
         </ul>
-      </article>
+      </div>
     </div>
     <div class="footer">
       <footer>
@@ -189,5 +372,6 @@
       </footer>
     </div>
     <script src="../main.js" defer></script>
+    <script src="../Scripts/dragonsIndex.js" defer></script>
   </body>
 </html>

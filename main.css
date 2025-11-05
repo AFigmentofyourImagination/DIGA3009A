@@ -1,6 +1,6 @@
 .header {
-    color: rgba(28,28,30,1);
-    background-color: rgba(181,106,51,1);
+    color: rgba(116, 176, 177, 1);
+    background-color: rgba(109,102,85,1);
     font-family: "Bebas Neue", sans-serif;
     font-size: 40px;
     text-align: center;
@@ -23,8 +23,8 @@
     bottom: 0;
     z-index: 99;
     margin: 0;
-    background-color: rgba(181, 106, 51, 1);
-    color: rgba(28,28,30,1);
+    background-color: rgba(157, 102, 184, 1);
+    color: rgba(255,241,202,1);
     list-style: none;
     padding-top: 4rem;
 }
@@ -34,13 +34,13 @@
 }
 
 .navMain li a{
-    color: rgba(28,28,30,1);
+    color: rgba(255,241,202,1);
     font-size: 1em;
     text-decoration: none;
 }
 
 .navMain :hover {
-    color: rgba(94,70,53,1);
+    color: rgba(28,28,30,1);
     transition: 0.3s;
 }
 
@@ -62,7 +62,7 @@
     top: 1rem;
     left: 1rem;
     padding: 4px;
-    background-color: rgba(168,54,38,1);
+    background-color: rgba(123, 48, 161, 1);
     width: 5em;
     cursor: pointer;
     border: none;
@@ -80,7 +80,7 @@
     z-index: 99;
     border: none;
     outline: none;
-    background-color: rgba(60,70,34,1);
+    background-color: rgba(40, 78, 39, 1);
     color: rgba(255,241,202,1);
     cursor: pointer;
     padding: 15px;
@@ -89,12 +89,12 @@
 }
 
 #bttBtn:hover {
-    background-color: rgba(128,140,60,1);
+    background-color: rgba(91, 153, 89, 1);
     color: rgba(28,28,30,1);
 }
 
 body {
-    background: rgba(242,198,125,1);
+    background: rgba(28,28,30,1);
     background-size: cover;
     background-attachment: fixed;
     font-family: "Asul", serif;
@@ -104,12 +104,14 @@ body {
 .tagline {
     margin: 1% 5%;
     text-align: center;
+    color: rgba(255,241,202,1);
 }
 
 .main {
     margin: 1em 2% 2em;
     padding: 1em 5% 1em;
-    background-color: rgba(255,241,202,1);
+    background-color: rgba(109, 102, 85, 1);
+    color: rgba(255,241,202,1);
 }
 
 .container {
@@ -117,13 +119,9 @@ body {
     flex-direction: column;
 }
 
-#extLink {
-    width: 5rem;
-    border-color: rgba(94,70,53,1);
-}
-
-#extLink :hover{
-    width: 1em;
+#poster {
+    width: 30em;
+    margin-left: 15em;
 }
 
 .footer {
@@ -131,7 +129,8 @@ body {
     font-weight: 400;
     font-style: normal;
     display: flex;
-    background-color: rgba(181,106,51);
+    background-color: rgba(18, 42, 117, 1);
+    color: rgba(116, 176, 177, 1);
     height: 5em;
     line-height: 0.5;
 }
