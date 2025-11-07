@@ -101,6 +101,10 @@ body {
     font-style: normal;
 }
 
+p {
+    margin-bottom: 1em;
+}
+
 .tagline {
     margin: 1% 5%;
     text-align: center;

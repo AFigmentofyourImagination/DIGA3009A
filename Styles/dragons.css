@@ -3,15 +3,24 @@ h2 {
     font-weight: 600;
 }
 
-p, h3 {
+p, h3, li {
     font-size: 1em;
     margin-left: 5em;
+    margin-bottom: 0;
     font-weight: 100;
 }
 
+#snowflake {
+    width: 60em;
+}
+
 .referTo {
-    color: rgba(71,112,154,1);
+    color: rgba(116, 176, 177, 1);
     text-decoration: none;
+}
+
+.referTo:hover {
+    color: rgba(18,101,103, 1);
 }
 
 #dragonBack {

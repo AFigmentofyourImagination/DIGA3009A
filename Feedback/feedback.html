@@ -89,6 +89,26 @@
     </div>
     <h1 class="tagline">Feedback</h1>
     <div class="main">
+      <form action="submit.html" method="get">
+        <p>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" required />
+        </p>
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" required />
+        </p>
+        <p>
+          <label for="feedback">Feedback:</label>
+          <textarea name="feedback" id="feedback" rows="5" cols="30"></textarea>
+        </p>
+        <p>
+          <input type="checkbox" id="terms" name="terms" /><label for="terms"
+            >I agree that Toothless is a very cute dragon.</label
+          >
+        </p>
+        <p><input type="submit" value="Submit" /></p>
+      </form>
     </div>
     <div class="footer">
       <footer>
