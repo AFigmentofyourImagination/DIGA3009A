@@ -3,14 +3,15 @@
 }
 
 #filterButtons {
-    margin-bottom: 1em;
+    margin-bottom: 5rem;
 }
 
 .filter-btn {
+    
     border: none;
     outline: none;
-    margin-bottom: 1em;
-    padding: 0 0.5em;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
     background-color: rgba(28, 28, 30, 1);
     color: rgba(255,241,202,1);
     cursor: pointer;
@@ -25,18 +26,24 @@
     display: none;
 }
 
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .btn:hover {
     background-color: rgba(109, 102, 85, 1);
 }
 
 #classIcon {
-    width: 6.5em;
+    width: 6.5rem;
 }
 
 .dragonIndex {
     list-style-type: none;
     padding-left: 0;
-    columns: 30em;
+    columns: 30rem;
 }
 
 .dragonIndex li {
@@ -44,7 +51,7 @@
     display: grid;
     grid-template-columns: minmax(2em, auto) 1fr;
     gap: 0 1.05em;
-    border: solid rgba(1,71,102,1);
+    border: solid rgba(28, 28, 30, 1);
     border-radius: 20px;
 }
 
@@ -58,14 +65,550 @@ li + li {
     font-size: 2em;
     padding: none;
     width: 15.5em;
+    height: 15rem;
     border-radius: 20px;
     text-align: center;
 }
 
 .dragonIndex li:hover {
-    background-color: rgba(71,112,154,1);
+    background-color: rgba(28, 28, 30 ,0.8);
 }
 
-.dragonPic {
-    width: fit-content;
+#armorwing {
+    background-image: url('/Images/mysteryClass/Armorwing1.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
 }
+
+#bewild {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#bone {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#buff {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#quake {
+    background-image: url('/Images/boulderClass/CatastrophicQuaken1.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#crasher {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#chngewng {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#goregut {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#nadder {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#deathgrip {
+    background-image: url('/Images/strikeClass/Deathgripper1.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#deathsong {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#dram {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#erupto {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#fireworm {
+    background-image: url('/Images/stokerClass/Fireworm2.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#flightmare {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#grimgnash {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#gronck {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#zipple {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#hobblegrunt {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#gobbler {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#burple {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#lfury {
+    background-image: url('/Images/strikeClass/LightFury1.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#nightmare {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#nfury {
+    background-image: url('/Images/strikeClass/NightFury1.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#nterror {
+    background-image: url('/Images/stokerClass/NightTerror1.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#raincut {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#razorwhip {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#reddeath {
+    background-image: url('/Images/stokerClass/RedDeath1.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#rumble {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#sandbust {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#scauld {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#scream {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#scuttle {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#seashock {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#sentinel {
+    background-image: url('/');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#shadowwing {
+    background-image: url('/Images/stokerClass/ShadowWingSmall1.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#shell {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#shovel {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#singe {
+    background-image: url('/Images/stokerClass/Singetail1.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#skrill {
+    background-image: url('/Images/strikeClass/Skrill1.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#slither {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#smokebreath {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#snaffle {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#snaptrap {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#sniffle {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#snowwraith {
+    background-image: url('/Images/strikeClass/SnowWraith1.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#stinger {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#stormcutter {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#subrip {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#tterror {
+    background-image: url('/Images/stokerClass/TerribleTerror1.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#thorn {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#thread {
+    background-image: url('/Images/stokerClass/Threadtail1.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#thunderclaw {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#thunderdrum {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#timjack {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#tripstryke {
+    background-image: url('/Images/strikeClass/TripleStryke1.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#typhoom {
+    background-image: url('/Images/stokerClass/Typhoomerang1.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#whisper {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#windgnash {
+    background-image: url('');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#windstrike {
+    background-image: url('/Images/trackerClass/Windgnasher1.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
