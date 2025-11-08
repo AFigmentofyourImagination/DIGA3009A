@@ -86,11 +86,12 @@
         <header>Web of Dragons</header>
       </div>
     </div>
+    <button onclick="topFunction()" id="bttBtn" title="Go to top">^</button>
     <h1 class="tagline">About</h1>
     <div class="main">
       <article>
         <h2>Creator</h2>
-        <p>
+        <p class="scrollAnim">
           I am a student who made this website for my finals in 2025. This is
           purely for a hyperfixation I have had ever since I can remember, I
           cannot remember my life before this franchise invaded my brain and set
@@ -99,7 +100,7 @@
           I am learning. I don't need to know everything right now.
         </p>
         <h2>History</h2>
-        <p>
+        <p class="scrollAnim">
           For those who are curious, here is the process, and the decisions, and
           my thoughts throughout making this website. This section is mainly for
           me to vent, and so anyone who reads it sees that a lot of emotion and
@@ -108,11 +109,11 @@
           other side.
         </p>
         <h3>Original summary for the index</h3>
-        <p>
+        <p class="scrollAnim">
           A Book of Dragons, but on the Internet. You might say it is a Website
           of Dragons.
         </p>
-        <p>
+        <p class="scrollAnim">
           Some may say that this is what the Fandom Wiki is for, but I disagree.
           Most fans, myself included, do not like that DreamWorks tried to run
           the HTTYD franchise dry after it concluded in 2019 with HTTYD 3. This
@@ -122,7 +123,7 @@
           was the Dragonpedia.
         </p>
         <h4>What happened to Dragonpedia?</h4>
-        <p>
+        <p class="scrollAnim">
           Long story short, DreamWorks shut it down and merged the barebones of
           it into their main website that is borderline impossible to navigate.
           Many of the sections and features were eliminated. Things like the
@@ -130,7 +131,7 @@
           still can't say. It's like they wanted it to disappear...
         </p>
         <h4>My thoughts</h4>
-        <p>
+        <p class="scrollAnim">
           I know that the official site had a maximum of 23 dragon entries and
           there are 61 dragons spotted and/or mentioned in the main franchise.
           But it feels wrong to me to not have that kind of website without
@@ -139,12 +140,14 @@
           that I found during my research, a hidden gem that I wanted to take
           inspiration from.
         </p>
-        <p>
+        <p class="scrollAnim">
           A brilliant website that inspired me:
-          <a href="https://httyd-unofficial.github.io">httyd-unofficial </a>
+          <a href="https://httyd-unofficial.github.io" id="extLink"
+            >httyd-unofficial
+          </a>
         </p>
         <h3>API and Feedback</h3>
-        <p>
+        <p class="scrollAnim">
           I have searched and I could not find a single thing that would give me
           an answer as to how to do this. Everything I have tried either failed
           or was too confusing for me to understand. What I have now is
@@ -152,37 +155,42 @@
           is the 6th, and I am so burnt out, I want to cry in my mother's arms
           until everything is ok again.
         </p>
-        <p>
-          Ok, it is later and I have figured it out, I was spiralling. To be
-          fair to me, all of my Google searches didn't have what I needed. My
-          feedback system now has a Google spreadsheet where it stores any
-          submissions I get. Currently, only I can read them, if the person who
-          is marking my project needs access to it to verify that it works, I
-          put my email in the GitHub notes for the commit of the final feedback
-          system. It would be under the "edited and feedback" comments.
+        <p class="scrollAnim">
+          Ok, I have figured it out, I was spiralling. To be fair to me, all of
+          my Google searches didn't have what I needed. My feedback system now
+          has a Google spreadsheet where it stores any submissions I get.
+          Currently, only I can read them, if the person who is marking my
+          project needs access to it to verify that it works, I put my email in
+          the GitHub notes for the commit of the final feedback system. It would
+          be under the "edited and feedback" comments.
         </p>
         <h3>GSAP</h3>
-        <p>
+        <p class="scrollAnim">
           Honestly, I still think some of the GSAP animations we are required to
           add are, for lack of a better term, unnecessary. Yes, it is important
           for us as students to learn how to use all the tools, but I think part
           of learning is that knowing when it is not needed for a good website.
         </p>
-        <p>
+        <p class="scrollAnim">
           Despite my opinions, I added them with the limited time I had left.
           Let me be clear, I did not leave it until the last second, but I got
-          overwhelmed and it lead to burn out and mental fog.
+          overwhelmed and it lead to burn out and mental fog. In order to be
+          kind to myself, I kept them simple as I did not want to overwhelm the
+          user. Because it needed to be across all the pages, I decided to add
+          the GSAP timeline to the navigation (it seemed pretty), only let some
+          paragraphs and lists be affected by the ScrollTrigger,
         </p>
         <h3>Checking the requirements</h3>
-        <p>
+        <p class="scrollAnim">
           I was tiredly reading through what I still had left to do when I saw
           that my API needed to be linked to my filter system. Queue the panic!
-          I was ready to run to my mom at 4 in the morning to cry. I couldn't
-          afford to fail to meet any requirements, no matter how tired I was.
-          The first thought running through me was, "Why do they need to be
-          linked? What do they mean the two are connected? Does that mean my
-          feedback API means nothing?!"
+          (Also why is queue spelt like that?) I was ready to run to my mom at 4
+          in the morning to cry. I couldn't afford to fail to meet any
+          requirements, no matter how tired I was. The first thought running
+          through me was, "Why do they need to be linked? What do they mean the
+          two are connected? Does that mean my feedback API means nothing?!"
         </p>
+        <p class="scrollAnim"></p>
       </article>
     </div>
     <div class="footer">
@@ -199,6 +207,7 @@
       </footer>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
     <script src="../main.js" defer></script>
   </body>
 </html>

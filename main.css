@@ -123,6 +123,11 @@ p {
     margin-bottom: 1em;
 }
 
+.scrollAnim {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
 .tagline {
     margin: 1% 5%;
     text-align: center;
@@ -143,6 +148,14 @@ p {
 
 #poster {
     width: 30em;
+}
+
+#extLink {
+    color: rgba(91, 153, 89, 1);
+}
+
+#extLink:hover {
+    color: rgba(40, 78, 39, 1);
 }
 
 .footer {

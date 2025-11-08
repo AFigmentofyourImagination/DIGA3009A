@@ -54,3 +54,18 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+// Animate all paragraphs and lists with class scrollAnim
+gsap.utils.toArray(".scrollAnim").forEach(elem => {
+  gsap.to(elem, {
+    opacity: 1,
+    y: 0,             // move to normal position
+    duration: 0.8,
+    ease: "power1.out",
+    scrollTrigger: {
+      trigger: elem,      // element triggers animation
+      start: "top 80%",   // when element top hits 80% of viewport
+      toggleActions: "play none none none"
+    }
+  });
+});
