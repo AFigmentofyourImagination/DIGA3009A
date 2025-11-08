@@ -27,19 +27,37 @@
     color: rgba(255,241,202,1);
     list-style: none;
     padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.navMain ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;     /* stack links vertically */
+    align-items: center;        /* center horizontally */
+    gap: 1rem;
 }
 
 .navMain li {
     list-style-type: none;
 }
 
-.navMain li a{
+.navMain li a.navItem{
+    opacity: 0;
+    transform: translateY(-20px);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     color: rgba(255,241,202,1);
     font-size: 1em;
     text-decoration: none;
+    text-align: center;
 }
 
-.navMain :hover {
+.navMain li a.navItem:hover {
     color: rgba(28,28,30,1);
     transition: 0.3s;
 }

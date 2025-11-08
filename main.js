@@ -1,23 +1,37 @@
 //testing
-console.log ("jello hello");
+console.log ("jello hello (vine reference, anyone?)");
 
-//menu toggling. following example and adapting it to fit my needs, shoutout to mdn docs
+//menu toggling. following example and adapting it to fit my needs, shoutout to mdn docs. can i just say gsap is a pain? less than api, but still
 const menu = document.querySelector(".navMain");
-    //function = check in doc css for element with .navMain name
-const navItems = document.querySelector(".navItem");
+const navItems = document.querySelectorAll(".navItem"); // use querySelectorAll for all items
 const menuBtn = document.querySelector(".menuBtn");
 const closeMenu = document.querySelector(".closeMenu");
 const openMenu = document.querySelector(".openMenu");
+
+// Create GSAP timeline for nav links
+const navTimeline = gsap.timeline({ paused: true, defaults: { duration: 0.5, ease: "power1.out" } });
+navTimeline.to(navItems, {
+  opacity: 1,
+  y: 0,
+  stagger: 0.2
+});
 
 function toggleMenu() {
     if (menu.classList.contains("showMenu")) {
         menu.classList.remove("showMenu");
         closeMenu.style.display = "none";
         openMenu.style.display = "block";
+
+        // Reset nav items for next open
+        gsap.set(navItems, { opacity: 0, y: -20 });
+
     } else {
         menu.classList.add("showMenu");
         closeMenu.style.display = "block";
         openMenu.style.display = "none";
+
+        // Play GSAP timeline to animate nav items
+        navTimeline.restart();
     }
 }
 
