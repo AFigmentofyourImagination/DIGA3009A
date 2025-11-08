@@ -7,6 +7,14 @@
     margin-top: 0;
 }
 
+#logo {
+    width: 3rem;
+    height: auto;
+    transform-origin: center center;
+    margin-top: 0.2rem;
+    margin-right: 0.4rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -165,12 +173,12 @@ p {
     display: flex;
     background-color: rgba(18, 42, 117, 1);
     color: rgba(116, 176, 177, 1);
-    height: 5em;
+    height: 5rem;
     line-height: 0.5;
 }
 
 .footer p {
     text-align: center;
-    margin-left: 5em;
-    margin-top: 1.5em;
+    margin-left: 5rem;
+    margin-top: 1.5rem;
 }

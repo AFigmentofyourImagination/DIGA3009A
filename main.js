@@ -69,3 +69,9 @@ gsap.utils.toArray(".scrollAnim").forEach(elem => {
     }
   });
 });
+
+gsap.to("#logo", {
+    rotation: 360,
+    duration: 2, // rotate over 2 seconds
+    ease: "power1.inOut"
+  });
