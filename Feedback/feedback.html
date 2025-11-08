@@ -107,8 +107,12 @@
             >I agree that Toothless is a very cute dragon.</label
           >
         </p>
-        <p><input type="submit" value="Submit" /></p>
+        <p><input type="submit" value="Submit" id="submit"/></p>
       </form>
+      <pre id="content"></pre>
+      <button id="showFeedback">Show All Feedback</button>
+      <button id="exportFeedback">Export Feedback</button>
+
     </div>
     <div class="footer">
       <footer>
@@ -123,6 +127,18 @@
         </p>
       </footer>
     </div>
+    <script
+      async
+      defer
+      src="https://apis.google.com/js/api.js"
+      onload="gapiLoaded()"
+    ></script>
+    <script
+      async
+      defer
+      src="https://accounts.google.com/gsi/client"
+      onload="gisLoaded()"
+    ></script>
     <script src="../main.js" defer></script>
     <script src="../Scripts/feedback.js" defer></script>
   </body>

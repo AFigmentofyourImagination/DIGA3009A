@@ -1,2 +1,0 @@
-root: C:\Users\elrig\Documents\DIGA3009A\nvm
-path: C:\nvm4w\nodejs

@@ -2,3 +2,46 @@ h2 {
     font-size: 3em;
 }
 
+#showFeedback, #exportFeedback, #submit {
+    background-color: rgba(40, 78, 39, 1);
+    border: solid 0.5em rgba(40, 78, 39, 1);
+    border-radius: 2em;
+    color: rgba(255,241,202,1);
+    font-family: "Asul", serif;
+}
+
+#showFeedback:hover, #exportFeedback:hover, #submit:hover {
+    background-color: rgba(91, 153, 89, 1);
+    border: solid 0.5em rgba(91, 153, 89, 1);
+    color: rgba(28, 28, 30, 1);
+}
+
+#content table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Asul", serif; /* match body font */
+    color: rgba(255,241,202,1);
+    background-color: rgba(109, 102, 85, 1); /* matches .main background */
+    margin-top: 1em;
+}
+
+#content th, #content td {
+    border: 1px solid rgba(116, 176, 177, 0.8); /* soft border matching header colors */
+    padding: 8px;
+    text-align: left;
+}
+
+#content th {
+    background-color: rgba(157, 102, 184, 1); /* matches nav menu */
+    color: rgba(255,241,202,1);
+    font-size: 1.1em;
+}
+
+#content tbody tr:nth-child(even) {
+    background-color: rgba(28, 28, 30, 0.7); /* subtle alternating row color */
+}
+
+#content tbody tr:hover {
+    background-color: rgba(40, 78, 39, 0.8); /* highlight on hover */
+    color: rgba(255,241,202,1);
+}
